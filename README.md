@@ -24,23 +24,13 @@ O projeto realiza os seguintes passos automaticamente ao iniciar:
 - Java 17
 - Spring Boot 3.2
 - Maven
-- Lombok (opcional, para getters/setters simplificados)
+- Lombok
 
 ## Como Executar
 ### Pré-requisitos
 - Java 17 ou superior
 - Maven
 
-### Executar via Maven
-```bash
-mvn spring-boot:run
-```
-
-### Gerar JAR e executar
-```bash
-mvn clean package
-java -jar target/funcionarios-springboot-1.0.0.jar
-```
 
 ## Observações
 - Todos os resultados são impressos no console.
